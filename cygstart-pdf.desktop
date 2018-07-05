@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Windows PDF reader
+TryExec=cygstart
+Exec=cygstart %u
+Icon=cygwin-logo-icon
+NoDisplay=true
+Terminal=false
+StartupNotify=false
+Categories=Office;Viewer;
+MimeType=application/pdf;
+OnlyShowIn=X-Cygwin;

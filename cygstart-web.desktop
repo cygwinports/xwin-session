@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Windows web browser
+TryExec=cygstart
+Exec=cygstart %u
+Icon=cygwin-logo-icon
+NoDisplay=true
+Terminal=false
+StartupNotify=false
+Categories=Network;WebBrowser;
+MimeType=x-scheme-handler/http;x-scheme-handler/https;application/xhtml+xml;text/html;application/xml;
+OnlyShowIn=X-Cygwin;

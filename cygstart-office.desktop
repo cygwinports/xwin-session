@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Windows office suite
+TryExec=cygstart
+Exec=cygstart %u
+Icon=cygwin-logo-icon
+NoDisplay=true
+Terminal=false
+StartupNotify=false
+Categories=Office;
+MimeType=application/msword;application/msword-template;application/vnd.lotus-1-2-3;application/vnd.ms-excel;application/vnd.ms-excel.sheet.binary.macroenabled.12;application/vnd.ms-excel.sheet.macroenabled.12;application/vnd.ms-excel.template.macroenabled.12;application/vnd.ms-powerpoint;application/vnd.ms-powerpoint.presentation.macroenabled.12;application/vnd.ms-powerpoint.slideshow.macroenabled.12;application/vnd.ms-powerpoint.template.macroenabled.12;application/vnd.ms-visio.drawing.main+xml;application/vnd.ms-visio.drawing.macroenabled.main+xml;application/vnd.ms-word.document.macroenabled.12;application/vnd.ms-word.template.macroenabled.12;application/vnd.oasis.opendocument.database;application/vnd.oasis.opendocument.formula;application/vnd.oasis.opendocument.formula-template;application/vnd.oasis.opendocument.graphics;application/vnd.oasis.opendocument.graphics-flat-xml;application/vnd.oasis.opendocument.graphics-template;application/vnd.oasis.opendocument.presentation;application/vnd.oasis.opendocument.presentation-flat-xml;application/vnd.oasis.opendocument.presentation-template;application/vnd.oasis.opendocument.spreadsheet;application/vnd.oasis.opendocument.spreadsheet-flat-xml;application/vnd.oasis.opendocument.spreadsheet-template;application/vnd.oasis.opendocument.text;application/vnd.oasis.opendocument.text-flat-xml;application/vnd.oasis.opendocument.text-master;application/vnd.oasis.opendocument.text-template;application/vnd.openofficeorg.extension;application/vnd.openxmlformats-officedocument.presentationml.presentation;application/vnd.openxmlformats-officedocument.presentationml.slideshow;application/vnd.openxmlformats-officedocument.presentationml.template;application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;application/vnd.openxmlformats-officedocument.spreadsheetml.template;application/vnd.openxmlformats-officedocument.wordprocessingml.document;application/vnd.openxmlformats-officedocument.wordprocessingml.template;application/vnd.sun.xml.calc;application/vnd.sun.xml.calc.template;application/vnd.sun.xml.draw;application/vnd.sun.xml.draw.template;application/vnd.sun.xml.impress;application/vnd.sun.xml.impress.template;application/vnd.sun.xml.math;application/vnd.sun.xml.writer;application/vnd.sun.xml.writer.template;application/vnd.visio;application/vnd.wordperfect;text/csv;
+OnlyShowIn=X-Cygwin;

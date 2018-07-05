@@ -1,0 +1,55 @@
+NAME="xwin-session"
+VERSION=0
+RELEASE=1
+CATEGORY="X11"
+SUMMARY="XWin mutiwindow session"
+DESCRIPTION="This package contains programs used to start the X Window System
+server and a first client program in environments that use multiple window
+systems."
+SRC_URI="
+	Xclients.cygwin.sh
+	autostart
+	desktop.conf
+	cygstart-folder.desktop
+	cygstart-mail.desktop
+	cygstart-music.desktop
+	cygstart-office.desktop
+	cygstart-pdf.desktop
+	cygstart-photos.desktop
+	cygstart-text.desktop
+	cygstart-videos.desktop
+	cygstart-web.desktop
+	mimeapps.list
+	postinstall.sh
+	preremove.sh
+"
+SRC_DIR=.
+
+ARCH=noarch
+
+REQUIRES="cygutils run xinit xterm lxsession lxappearance"
+REQUIRES+=" adwaita-icon-theme adwaita-themes cantarell-fonts"
+REQUIRES+=" notification-daemon trayer xwin-xdg-menu xdg-user-dirs-gtk"
+REQUIRES+=" atril engrampa eom nemo pluma xplayer"
+
+src_compile() { :; }
+
+src_install() {
+	cd ${S}
+	domenu cygstart-*.desktop
+
+	exeinto /etc/X11/xinit/Xclients.d
+	doexe Xclients.cygwin.sh
+
+	insinto /etc/xdg/lxsession/X-Cygwin
+	doins autostart desktop.conf
+
+	insinto /usr/share/applications
+	newins mimeapps.list x-cygwin-mimeapps.list
+
+	exeinto /etc/postinstall
+	newexe postinstall.sh ${NAME}.sh
+
+	exeinto /etc/preremove
+	newexe preremove.sh ${NAME}.sh
+}

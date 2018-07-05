@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Windows mail client
+TryExec=cygstart
+Exec=cygstart %u
+Icon=cygwin-logo-icon
+NoDisplay=true
+Terminal=false
+StartupNotify=false
+Categories=Office;Email;
+MimeType=x-scheme-handler/mailto;x-scheme-handler/news;x-scheme-handler/nntp;message/rfc822;
+OnlyShowIn=X-Cygwin;

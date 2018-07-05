@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Windows video player
+TryExec=cygstart
+Exec=cygstart %u
+Icon=cygwin-logo-icon
+NoDisplay=true
+Terminal=false
+StartupNotify=false
+Categories=AudioVideo;Video;Player;
+MimeType=video/3gpp;video/3gpp2;video/mp2t;video/mp4;video/mpeg;video/quicktime;video/x-msvideo;video/x-ms-wmv;
+OnlyShowIn=X-Cygwin;

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Windows music player
+TryExec=cygstart
+Exec=cygstart %u
+Icon=cygwin-logo-icon
+NoDisplay=true
+Terminal=false
+StartupNotify=false
+Categories=AudioVideo;Audio;Player;
+MimeType=application/vnd.ms-wpl;audio/aac;audio/mp4;audio/mpeg;audio/x-mpegurl;audio/x-ms-wma;audio/x-wav;
+OnlyShowIn=X-Cygwin;
